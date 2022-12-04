@@ -27,17 +27,17 @@ int main() {
     for (int i : arr) {
         lst.pushBack(i);
     }
-    cout << "push back: ";
+    cout << "push back:  ";
     lst.display();
     cout << '\n';
 
     lst.popFront();
-    cout << "pop front: ";
+    cout << "pop front:  ";
     lst.display();
     cout << '\n';
 
     lst.popBack();
-    cout << "pop back: ";
+    cout << "pop back:   ";
     lst.display();
     cout << '\n';
 
